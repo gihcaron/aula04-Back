@@ -2,7 +2,7 @@
 const alunoObjeto = new Object();
 alunoObjeto.nome="Maria";
 alunoObjeto.turma= "2TDS3";
-alunoObjeto.registro= "1245";
+alunoObjeto.registro= 1245;
 console.log(alunoObjeto);
 // Mudanças ------------------------
 alunoObjeto.turma = "3TDS3"
@@ -16,7 +16,7 @@ livroObjeto.ano=2019;
 const carro = new Object();
 carro.cor="rosa-pink";
 carro.modelo="Hilux";
-carro.ano= "2027";
+carro.ano= 2027;
 console.log(carro);
 // Mudanças ------------------------
 carro.ano = 2026;
@@ -25,7 +25,7 @@ console.log(carro);
 const filme = new Object();
 filme.titulo="De repente 30";
 filme.diretor="Marcelo Devs";
-filme.anoLancamento = "2004";
+filme.anoLancamento = 2004;
 
 const cachorro = new Object();
 cachorro.nome="José Carlos";
